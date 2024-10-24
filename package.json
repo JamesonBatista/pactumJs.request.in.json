@@ -1,0 +1,26 @@
+{
+  "name": "pactumjs.request.in.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesonBatista/pactumJs.request.in.json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesonBatista/pactumJs.request.in.json/issues"
+  },
+  "homepage": "https://github.com/JamesonBatista/pactumJs.request.in.json#readme",
+  "dependencies": {
+    "joi": "^17.13.3",
+    "pactum": "^3.7.2",
+    "superstruct": "^2.0.2",
+    "yup": "^1.4.0"
+  }
+}

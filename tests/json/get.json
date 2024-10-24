@@ -1,0 +1,16 @@
+[
+  {
+    "post": "http://localhost:3000/users",
+    "headers": {
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+    },
+    "payload": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "inspect": ["username", "password"]
+  },
+  {
+    "get": "http://localhost:3000/users"
+  }
+]
