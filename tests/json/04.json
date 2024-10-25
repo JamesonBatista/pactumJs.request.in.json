@@ -1,0 +1,1 @@
+{ "get": "https://reqres.in/api/users/2", "expect": "first_name" }

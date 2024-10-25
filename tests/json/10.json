@@ -1,0 +1,36 @@
+[
+	{
+	  "post": "http://localhost:3000/users",
+	  "headers": {
+		"authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+	  },
+	  "payload": {
+		"username": "faker.name",
+		"password": "admin"
+	  },
+	  "schema": {
+		"$schema": "http://json-schema.org/draft-04/schema#",
+		"type": "object",
+		"properties": {
+		  "id": {
+			"type": "integer"
+		  },
+		  "username": {
+			"type": "string"
+		  },
+		  "password": {
+			"type": "string"
+		  }
+		},
+		"required": ["id", "username", "password"]
+	  },
+	  "save": "id",
+	  "expect": "username"
+	},
+	{
+	  "get": "http://localhost:3000/users/{id}",
+	  "save": [{ "path": "username" }, { "path": "password" }],
+	  "expect": { "path": "password", "eq": "admin" }
+	}
+  ]
+  

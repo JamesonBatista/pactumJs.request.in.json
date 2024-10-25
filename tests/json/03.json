@@ -1,0 +1,4 @@
+{
+  "get": "https://reqres.in/api/users/2",
+  "save": [{ "path": "first_name" }, { "path": "last_name" }]
+}

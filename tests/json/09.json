@@ -1,0 +1,5 @@
+{
+  "post": "endpoint_part/users",
+  "payload": { "name": "faker.name", "email": "faker.email" },
+  "log": true
+}
