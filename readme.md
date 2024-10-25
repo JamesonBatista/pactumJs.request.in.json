@@ -71,7 +71,7 @@ describe("Effect tests api in pactum JS", () => {
 { "get": "https://reqres.in/api/users/2", "log": true }
 ```
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 ## Usando env
 
@@ -81,7 +81,7 @@ Usando env você pode pegar o valor de um path completo ou uma parte e montar su
 
 ```
 
-![alt text](image-9.png)
+![alt text](./images/image-9.png)
 
 ```json
 { "get": "endpoint" }
@@ -94,18 +94,18 @@ console: npm test
 
 ```
 
-![alt text](image-10.png)
+![alt text](./images/image-10.png)
 
-![alt text](image-11.png)
+![alt text](./images/image-11.png)
 
 ```json
 // in json
 { "get": "endpoint_part/users/2" }
 ```
 
-![alt text](image-13.png)
+![alt text](./images/image-13.png)
 
-![alt text](image-12.png)
+![alt text](./images/image-12.png)
 
 ## Save
 
@@ -128,8 +128,8 @@ in test
 console: npm test
 ```
 
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](./images/image-1.png)
+![alt text](./images/image-2.png)
 
 ## save multiple value
 
@@ -142,9 +142,9 @@ console: npm test
 }
 ```
 
-![alt text](image-3.png)
+![alt text](./images/image-3.png)
 
-![alt text](image-4.png)
+![alt text](./images/image-4.png)
 
 ## Usando valores do save
 
@@ -188,8 +188,8 @@ in test
 console: npm test
 ```
 
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](./images/image-5.png)
+![alt text](./images/image-6.png)
 
 ## Equal
 
@@ -201,9 +201,9 @@ console: npm test
 }
 ```
 
-![alt text](image-7.png)
+![alt text](./images/image-7.png)
 
-![alt text](image-8.png)
+![alt text](./images/image-8.png)
 
 ## Schema
 
@@ -216,11 +216,11 @@ Para efetuar um teste de contrato ou schema, basta colar o eschema no JSON.
 
 ```
 
-![alt text](image-14.png)
+![alt text](./images/image-14.png)
 
-![alt text](image-15.png)
+![alt text](./images/image-15.png)
 
-![alt text](image-16.png)
+![alt text](./images/image-16.png)
 
 ## Payload
 
@@ -231,9 +231,9 @@ Para efetuar um teste de contrato ou schema, basta colar o eschema no JSON.
 }
 ```
 
-![alt text](image-17.png)
+![alt text](./images/image-17.png)
 
-![alt text](image-18.png)
+![alt text](./images/image-18.png)
 
 ### gerar dados fakes
 
@@ -276,3 +276,6 @@ Para efetuar um teste de contrato ou schema, basta colar o eschema no JSON.
     };
 
 ```
+### Multiplos objetos em array 
+
+![alt text](./images/image-19.png)
